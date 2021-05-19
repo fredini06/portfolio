@@ -1,7 +1,17 @@
+:root {
+  --violet: rgb(144, 106, 248);
+}
+
 /* NAVBAR */
 
 .photo {
   border-radius: 50%;
+}
+
+.name {
+  color: #fff !important;
+  font-size: 25px;
+  margin-top: 20px;
 }
 
 nav {
@@ -21,7 +31,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
-  border-top: 3px solid #fff;
+  border-top: 3px solid var(--violet);
 }
 
 /* HEADER */
@@ -46,7 +56,7 @@ nav ul li {
 
 .main-info h1 {
   margin-top: 50px;
-  color: #fff;
+  color: var(--violet);
 }
 
 .typed-text {
@@ -56,7 +66,7 @@ nav ul li {
 }
 
 .btn-header {
-  border: solid 1px #fff;
+  border: solid 1px var(--violet);
   border-radius: 5px;
   padding: 10px;
   margin-top: 30px;
@@ -67,6 +77,8 @@ nav ul li {
 }
 
 .btn-header:hover {
+  color: var(--violet);
+  font-weight: bold;
   background-color: #fff;
   transition: 0.2s ease-in-out;
 }
@@ -87,4 +99,29 @@ nav ul li {
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+/* ABOUT ME */
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 5px;
+  border: solid 1px var(--violet);
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+}
+
+.about-heading {
+  color: var(--violet);
 }
