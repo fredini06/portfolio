@@ -162,6 +162,7 @@ nav ul li {
   border-bottom: 5px solid var(--violet);
   margin-bottom: 20px;
   padding: 2px;
+  transition: .3s ease-in-out;
 }
 
 .services .box:hover {
@@ -171,4 +172,58 @@ nav ul li {
 
 .services .box:hover .circle {
   background: #fff;
+}
+
+/* EDITIONS */
+
+.edit-wrap {
+  background: var(--lightGrey);
+  margin-top: 50px;
+  padding: 10px 0;
+}
+
+.edit-wrap .row {
+  text-align: center;
+}
+
+.edit-img {
+  background: var(--violet);
+  border: 5px solid #fff;
+}
+
+.portfolio-image-box {
+  position: relative;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: #000;
+  top: 0;
+  width: 320px;
+  height: 243px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow{
+  opacity: 60%;
+  transition: .3s ease-in-out;
+}
+
+.edit-icon {
+  position: absolute;
+  opacity: 0;
+  margin-top: -130px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .edit-icon {
+  opacity: 1;
+  transition: .3s ease-in-out;
+}
+
+.imgXL {
+  
 }
