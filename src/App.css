@@ -1,5 +1,6 @@
 :root {
   --violet: rgb(144, 106, 248);
+  --lightGrey: #e9e7e7;
 }
 
 /* NAVBAR */
@@ -124,4 +125,50 @@ nav ul li {
 
 .about-heading {
   color: var(--violet);
+}
+
+/* SERVICES */
+
+.services {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: var(--lightGrey);
+}
+
+.services h1 {
+  text-transform: uppercase;
+}
+
+.services .circle {
+  position: relative;
+  margin: 10px auto;
+  background: var(--violet);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.services .icon {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services .box {
+  height: 270px;
+  background: #fff;
+  border-bottom: 5px solid var(--violet);
+  margin-bottom: 20px;
+  padding: 2px;
+}
+
+.services .box:hover {
+  background: var(--violet);
+  border-bottom: 5px solid #000;
+}
+
+.services .box:hover .circle {
+  background: #fff;
 }
