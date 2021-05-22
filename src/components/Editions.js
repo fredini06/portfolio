@@ -7,6 +7,14 @@ import ed03 from '../images/Ed-03.jpg';
 import ed03Xl from '../images/Ed-03-XL.jpg';
 import ed04 from '../images/Ed-04.jpg';
 import ed04Xl from '../images/Ed-04-XL.jpg';
+import ed05 from '../images/Ed-05.jpg';
+import ed05Xl from '../images/Ed-05-XL.jpg';
+import ed06 from '../images/Ed-06.jpg';
+import ed06Xl from '../images/Ed-06-XL.jpg';
+import ed07 from '../images/Ed-07.jpg';
+import ed07Xl from '../images/Ed-07-XL.jpg';
+import ed08 from '../images/Ed-08.jpg';
+import ed08Xl from '../images/Ed-08-XL.jpg';
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
@@ -78,6 +86,46 @@ const Editions = () => {
         PopupboxManager.open({ content })
     }
 
+    //img5
+    const openPopupboxImg5 = () => {
+        const content = (
+            <div>
+                <img className="imgXL" src={ed05Xl} alt="Des cartes de visite" />
+            </div>
+        )
+        PopupboxManager.open({ content })
+    }
+
+    //img6
+    const openPopupboxImg6 = () => {
+        const content = (
+            <div>
+                <img className="imgXL" src={ed06Xl} alt="Des cartes de visite" />
+            </div>
+        )
+        PopupboxManager.open({ content })
+    }
+
+    //img7
+    const openPopupboxImg7 = () => {
+        const content = (
+            <div>
+                <img className="imgXL" src={ed07Xl} alt="Des cartes de visite" />
+            </div>
+        )
+        PopupboxManager.open({ content })
+    }
+
+    //img8
+    const openPopupboxImg8 = () => {
+        const content = (
+            <div>
+                <img className="imgXL" src={ed08Xl} alt="Des cartes de visite" />
+            </div>
+        )
+        PopupboxManager.open({ content })
+    }
+
     const popupboxConfigImg4 = {
         titleBar: {
             enable: true
@@ -108,6 +156,26 @@ const Editions = () => {
                     </div>
                     <div className="col-md-3 col-sm-6 portfolio-image-box" onClick={openPopupboxImg4}>
                         <img className="edit-img" src={ed04} alt="Des livres" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="edit-icon" icon={faSearchPlus} size="2x" />
+                    </div>
+                    <div className="col-md-3 col-sm-6 portfolio-image-box" onClick={openPopupboxImg5}>
+                        <img className="edit-img" src={ed05} alt="Des livres" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="edit-icon" icon={faSearchPlus} size="2x" />
+                    </div>
+                    <div className="col-md-3 col-sm-6 portfolio-image-box" onClick={openPopupboxImg6}>
+                        <img className="edit-img" src={ed06} alt="Des livres" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="edit-icon" icon={faSearchPlus} size="2x" />
+                    </div>
+                    <div className="col-md-3 col-sm-6 portfolio-image-box" onClick={openPopupboxImg7}>
+                        <img className="edit-img" src={ed07} alt="Des livres" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="edit-icon" icon={faSearchPlus} size="2x" />
+                    </div>
+                    <div className="col-md-3 col-sm-6 portfolio-image-box" onClick={openPopupboxImg8}>
+                        <img className="edit-img" src={ed08} alt="Des livres" />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="edit-icon" icon={faSearchPlus} size="2x" />
                     </div>

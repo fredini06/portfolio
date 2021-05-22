@@ -193,6 +193,7 @@ nav ul li {
 
 .portfolio-image-box {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .overflow {
@@ -224,6 +225,26 @@ nav ul li {
   transition: .3s ease-in-out;
 }
 
-.imgXL {
-  
+@media(max-width: 768px) {
+  .imgXL {
+    width: 100%;
+  }  
+}
+
+@media(max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+  .imgXL {
+    width: 100%;
+  }  
+}
+
+@media(max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .imgXL {
+    width: 100%;
+  }  
 }
