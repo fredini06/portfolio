@@ -137,6 +137,7 @@ nav ul li {
 
 .services h1 {
   text-transform: uppercase;
+  color: var(--violet)
 }
 
 .services .circle {
@@ -184,6 +185,10 @@ nav ul li {
 
 .edit-wrap .row {
   text-align: center;
+}
+
+.edit-wrap h1 {
+  color: var(--violet);
 }
 
 .edit-img {
@@ -247,4 +252,100 @@ nav ul li {
   .imgXL {
     width: 100%;
   }  
+}
+
+
+/* CONTACT */
+
+.contact {
+  background: var(--lightGrey);
+  margin-top: 50px;
+  padding: 10px 0;
+}
+
+.contact h1 {
+  color: var(--violet);
+}
+
+.contact p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact-btn {
+  background-color: var(--violet) !important;
+  color: #fff !important;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin: 15px auto !important;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.contact-btn:hover {
+  background-color: #fff !important;
+  color: var(--violet) !important;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding-left: 0;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+}
+
+.contact input:focus, .contact textarea:focus {
+  background: transparent;
+  outline:0px !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+}
+
+.contact .container {
+  margin-top: 50px;
+  border: 1px solid var(--violet);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact textarea {
+  height: 140px !important;
+}
+
+/* @media(max-width 768px) {
+  .contact .container {
+
+  }
+} */
+
+.line {
+  position: relative;
+  top: -18px;
+  width: 0;
+  height: 2px;
+  background: var(--violet);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  font-size: 18px;
+  font-weight: 900;
+  color: green;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }

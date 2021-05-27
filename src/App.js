@@ -6,6 +6,8 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Services from './components/Services';
 import Editions from './components/Editions';
+import Print from './components/Print';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
       <AboutMe />
       <Services />
       <Editions />
+      <Print />
+      <Contact />
     </>
   );
 }
