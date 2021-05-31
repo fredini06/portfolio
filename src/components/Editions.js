@@ -179,6 +179,7 @@ const Editions = () => {
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="edit-icon" icon={faSearchPlus} size="2x" />
                     </div>
+                    <p className="other">Et bien d'autres...</p>
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfigImg1}/>

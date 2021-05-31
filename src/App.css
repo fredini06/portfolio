@@ -308,6 +308,7 @@ nav ul li {
 
 .contact .container {
   margin-top: 50px;
+  margin-bottom: 50px;
   border: 1px solid var(--violet);
   padding: 20px;
   border-radius: 5px;
@@ -322,6 +323,10 @@ nav ul li {
 
   }
 } */
+
+.other {
+  font-size: 20px;
+}
 
 .line {
   position: relative;
@@ -348,4 +353,32 @@ input:focus+.line, textarea:focus+.line {
   text-align: center;
   display: block;
   margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #212529;
+  color: #fff;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--violet);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .row {
+  text-align: center;
 }
