@@ -34,7 +34,7 @@ const Contact = () => {
       }
 
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <h1 className="text-uppercase text-center py-5">contactez-moi</h1>
             <p>Merci de remplir les champs nécessaires</p>
             <span className="success-message">{successMessage}</span>

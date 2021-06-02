@@ -135,7 +135,7 @@ const Editions = () => {
     }
 
     return (
-        <div className="edit-wrap">
+        <div id="editions" className="edit-wrap">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Éditions</h1>
                 <div className="row">

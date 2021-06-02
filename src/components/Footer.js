@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-scroll';
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
         <div className="footer">
             <div className="container">
                 <div className="row">
+                    <a href="#">Accueil</a>
                     <div className="col-lg-3 col-md-6 col-sm-6">
                             <p>Frédéric Iniesta</p>
                             <p>Copyright © 
