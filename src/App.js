@@ -9,6 +9,7 @@ import Editions from './components/Editions';
 import Print from './components/Print';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Web from './components/Web';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <Services />
       <Editions />
       <Print />
+      <Web />
       <Contact />
       <Footer />
     </>

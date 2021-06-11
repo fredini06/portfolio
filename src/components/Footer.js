@@ -8,6 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <a href="#">Accueil</a>
+                    <hr />
                     <div className="col-lg-3 col-md-6 col-sm-6">
                             <p>Frédéric Iniesta</p>
                             <p>Copyright © 

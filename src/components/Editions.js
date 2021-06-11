@@ -138,7 +138,7 @@ const Editions = () => {
         <div id="editions" className="edit-wrap">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Éditions</h1>
-                <div className="row">
+                <div className="row ">
                     <div className="col-md-3 col-sm-6 portfolio-image-box" onClick={openPopupboxImg1}>
                         <img className="edit-img" src={ed01} alt="Des cartes de visite" />
                         <div className="overflow"></div>
