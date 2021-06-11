@@ -277,7 +277,7 @@ nav ul li {
   padding: 10px 0;
 }
 
-/* .web-wrap .row {
+/* .web-wrap .row{
   text-align: center;
 } */
 
@@ -328,6 +328,10 @@ nav ul li {
 
 .hyper-link:hover {
   cursor: pointer;
+}
+
+.other {
+  text-align: center;
 }
 
 /* CONTACT */
