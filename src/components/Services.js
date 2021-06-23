@@ -12,7 +12,7 @@ const Services = () => {
                         <div className="box">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
                             <h3>Développement Web</h3>
-                            <p>Création et maintenance de sites Internet. HTML, CSS et Javascript...</p>
+                            <p>Création et maintenance de sites Internet. HTML, CSS et Javascript, Bootstrap, React, WordPress...</p>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
